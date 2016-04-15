@@ -1,0 +1,10 @@
+table: test : 20
+row:{ l1 int, l2 float, l3 string,l4 timestamp}
+(l1) include (1 0.4;2 0.3)
+end;
+
+table: test2 : 15
+row:{ l1 string, l2 int,l3 timestamp,l4 float}
+(l2) except (1)
+(l2) include (2 0.3)
+end; 
